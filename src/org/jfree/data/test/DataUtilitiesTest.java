@@ -118,7 +118,22 @@ public class DataUtilitiesTest {
 			assertTrue("Incorrect exception type thrown", e.getClass().equals(IllegalArgumentException.class));
 		}
 	}
-
+	
+	
+//
+//	@Test
+//    public void testCalculateRowTotalWithNullDataValidRow1() {
+//        try {
+//            DataUtilities.calculateRowTotal(null, 1);
+//            fail("No exception thrown. The expected outcome was: a thrown exception of type: IllegalArgumentException");
+//        } catch (Exception e) {
+//            assertTrue("Incorrect exception type thrown", e.getClass().equals(IllegalArgumentException.class));
+//        }
+//    }
+//
+//	
+	
+	
 	@Test
 	public void testCalculateRowTotalWithNullDataNegativeRow() {
 		try {
