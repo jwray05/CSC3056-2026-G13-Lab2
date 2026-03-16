@@ -381,7 +381,7 @@ public class DataUtilitiesTest {
                 {-5.0, 0.0},
                 {8.95, -2.15}
             };
-//pick up the phone
+
             Number[][] result = DataUtilities.createNumberArray2D(data);
 
             assertNotNull("Returned array should not be null", result);
